@@ -2,7 +2,7 @@
 FROM nginx
 
 # Copy custom HTML file to NGINX default public directory
-COPY sample.html /usr/share/nginx/html
+COPY dock.html /workspaces/Project1/dock.html
 
 # Expose port 80 to allow external access
 EXPOSE 80
